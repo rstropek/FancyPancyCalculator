@@ -24,6 +24,8 @@ while (true) {
             console.log(`The result of ${n1} + ${n2} is ${chalk.bgGreenBright.black(result)}.`);
             break;
         case '-':
+            result = math.subtract(n1, n2);
+            console.log(`The result of ${n1} + ${n2} is ${chalk.bgGreenBright.black(result)}.`);
             break;
         default:
             console.log(chalk.red('Invalid selection, please try again!'));
